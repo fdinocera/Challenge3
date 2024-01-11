@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+
+body{
+    /* Resetta i margini sul tag body */
+    margin: 0;
+    font-family: 'Montserrat';
+}
+.main-section{
+    padding: 20px;
+}
+.image-container{    
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+h1{
+    font-family: 'Prata', sans-serif;
+    font-size: 64px;
+    font-weight: 400;    
+}
+h3{
+    font-family: 'Prata', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+}
+h1,h3{
+    margin-bottom: 0;
+}
+a{
+    /* Applica al link un peso di 600 e uno stile corsivo */
+    font-weight: 600;
+    font-style: italic;
+}
+h6{
+    /* Applica all’h6 un padding di 22px, un margine inferiore di 0px, un margine superiore di 56px, colore del testo bianco, bordi arrotondati di 6px e un gradiente orizzontale come sfondo. Scegli come step per il gradiente due colori presi dalla foto di sfondo. */
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;    
+}
+ul{
+    /* Applica alla lista non ordinata uno stile in modo da rimuovere i punti a sinistra e il padding di default */
+    list-style: none;
+    padding-inline-start: 0;
+}
+li{
+    /* Fai in modo che ogni elemento della lista abbia un padding top e bottom di 6px, 22px di padding-left, un bordo inferiore di 1px di questo colore: #dfdfdf */
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;    
+    border-bottom: solid 1px;
+    border-bottom-color: #dfdfdf;
+}
+a{
+    /* Rimuovi la sottolineatura dagli elementi contenuti nella lista ... */
+    text-decoration: none;
+}
+a:visited{
+    /* ... e cambia il colore di quelli utilizzati con il primo dei due colori utilizzati per il gradiente */
+    color:#1696b9;
+}
+footer{
+    /* Aggiungi un footer al di fuori della sezione principale, coloralo in nero e accertati che il colore del testo sia bianco. Aggiungi 16px per il padding (se hai fatto tutto correttamente dovrebbe comparire attaccato ai bordi sinistro, inferiore e destro). */
+    
+    background-color:black;    
+    padding: 16px;
+    text-align: center;    
+}
+footer a{
+    color: white;
+}
+footer a:visited{
+    color: white;
+}
+
+
+
